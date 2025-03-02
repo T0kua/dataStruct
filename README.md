@@ -4,9 +4,9 @@
 
 ----------------
 * Лаба 1
-  * [Задача лабораторной работы 1]()  
-  * [Ответ к лабораторной работе 1]()
+  * [Задача лабораторной работы 1](https://github.com/T0kua/dataStruct/blob/main/lab_1_readme.md)  
+  * [Ответ к лабораторной работе 1](https://github.com/T0kua/dataStruct/blob/main/lab_1.py)
 * Лаба 2
-  * [Задача лабораторной работы 2]()  
-  * [Ответ к лабораторной работе 2]()
+  * [Задача лабораторной работы 2](https://github.com/T0kua/dataStruct/blob/main/lab2_readme.md)  
+  * [Ответ к лабораторной работе 2](https://github.com/T0kua/dataStruct/blob/main/lab_2.cpp)
 ----------------
