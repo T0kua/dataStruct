@@ -6,7 +6,7 @@
 #include <algorithm>
 
 int main() {
-	//Вариант решения 1
+	//Г‚Г Г°ГЁГ Г­ГІ Г°ГҐГёГҐГ­ГЁГї 1
 	std::default_random_engine re(std::chrono::system_clock::now().time_since_epoch().count());
 	std::uniform_real_distribution<double> di(-1., 1.);
 
@@ -29,28 +29,28 @@ int main() {
 			}
 		}
 	}
-	//Вариант решения 2
+	//Г‚Г Г°ГЁГ Г­ГІ Г°ГҐГёГҐГ­ГЁГї 2
 
-	// Размер матриц
+	// ГђГ Г§Г¬ГҐГ° Г¬Г ГІГ°ГЁГ¶
 	const int N = 2048;
 
-	// Определяем матрицы A, B и C
+	// ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ Г¬Г ГІГ°ГЁГ¶Г» A, B ГЁ C
 	std::complex<double> A[N][N], B[N][N], C[N][N];
 
-	// Инициализация матриц A и B случайными значениями
+	// Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї Г¬Г ГІГ°ГЁГ¶ A ГЁ B Г±Г«ГіГ·Г Г©Г­Г»Г¬ГЁ Г§Г­Г Г·ГҐГ­ГЁГїГ¬ГЁ
 	for (int i = 0; i < N; ++i) {
 		for (int j = 0; j < N; ++j) {
-			A[i][j] = std::complex<double>(rand() % 10, rand() % 10); // Случайные комплексные числа
+			A[i][j] = std::complex<double>(rand() % 10, rand() % 10); // Г‘Г«ГіГ·Г Г©Г­Г»ГҐ ГЄГ®Г¬ГЇГ«ГҐГЄГ±Г­Г»ГҐ Г·ГЁГ±Г«Г 
 			B[i][j] = std::complex<double>(rand() % 10, rand() % 10);
-			C[i][j] = std::complex<double>(0, 0); // Инициализация C нулями
+			C[i][j] = std::complex<double>(0, 0); // Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї C Г­ГіГ«ГїГ¬ГЁ
 		}
 	}
 
-	// Параметры для cblas_zgemm
-	const double alpha = 1.0; // Коэффициент для A*B
-	const double beta = 0.0;   // Коэффициент для C
+	// ГЏГ Г°Г Г¬ГҐГІГ°Г» Г¤Г«Гї cblas_zgemm
+	const double alpha = 1.0; // ГЉГ®ГЅГґГґГЁГ¶ГЁГҐГ­ГІ Г¤Г«Гї A*B
+	const double beta = 0.0;   // ГЉГ®ГЅГґГґГЁГ¶ГЁГҐГ­ГІ Г¤Г«Гї C
 
-	// Умножение матриц
+	// Г“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ Г¬Г ГІГ°ГЁГ¶
 	cblas_zgemm(CblasRowMajor, CblasNoTrans, CblasNoTrans,
 		N, N, N,
 		&alpha,
@@ -59,7 +59,7 @@ int main() {
 		&beta,
 		(void*)C, N);
 
-	//Вариант решения 3
+	//Г‚Г Г°ГЁГ Г­ГІ Г°ГҐГёГҐГ­ГЁГї 3
 	double A[2048][2048], B[2048][2048], C[2048][2048];
 
 
