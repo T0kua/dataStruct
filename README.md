@@ -10,6 +10,6 @@
   * [Задача лабораторной работы 2](https://github.com/T0kua/dataStruct/blob/main/lab2_readme.md)  
   * [Ответ к лабораторной работе 2](https://github.com/T0kua/dataStruct/blob/main/lab_2.cpp)
 * Лаба 3
-  * [Задача лабораторной работы 1](https://github.com/T0kua/dataStruct/blob/main/lab_3_readme.md)  
-  * [Ответ к лабораторной работе 1](https://github.com/T0kua/dataStruct/blob/main/lab3.py)
+  * [Задача лабораторной работы 3](https://github.com/T0kua/dataStruct/blob/main/lab_3_readme.md)  
+  * [Ответ к лабораторной работе 3](https://github.com/T0kua/dataStruct/blob/main/lab3.py)
 ----------------
