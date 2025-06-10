@@ -14,5 +14,6 @@
 Исполнитель: Филиппов Сергей
 
 ---
+![image](https://github.com/user-attachments/assets/897f3d81-653e-46b2-bf10-7b8cc086eea4)
 
 ---
