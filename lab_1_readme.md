@@ -14,6 +14,7 @@
 Исполнитель: Филиппов Сергей
 
 ---
+![image](https://github.com/user-attachments/assets/bd32b60b-3cb2-4da5-90f0-b806d101a27b)
 
 ---
 ### Время выполнения
